@@ -1,0 +1,7 @@
+code for running java project at terminal 
+cd C:\Users\mkhar\Desktop\PasswordManager
+ 
+javac -cp "lib/mysql-connector-j-9.5.0.jar" -d out src\db\DBConnection.java src\ui\LoginRegister.java src\ui\Dashboard.java
+
+
+java -cp "out;lib/mysql-connector-j-9.5.0.jar" ui.LoginRegister
